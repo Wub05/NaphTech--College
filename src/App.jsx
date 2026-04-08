@@ -24,6 +24,5 @@ const App = () => {
     </>
   );
 };
-// bg-gradient-to-br from-[#93C6FF] via-[#A981FF] to-[#538FF7]
 
 export default App;
