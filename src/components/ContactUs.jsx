@@ -43,7 +43,7 @@ export default function ContactUs() {
           <div className="grid lg:grid-cols-5 gap-8 lg:gap-12  translate-y-12 transition-all duration-700 ease-out">
             {/* <!-- Contact Form --> */}
             <div className="lg:col-span-3">
-              <div className="relative bg-white rounded-3xl p-8 lg:p-10 shadow-xl shadow-[#1E3A8A]/5 border border-gray-100">
+              <div className="relative bg-white rounded-3xl p-8 lg:p-10 shadow-xl shadow-[#1E3A8A]/5 border border-[#1E3A8A]">
                 {/* <!-- Decorative Elements --> */}
                 <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-[#3B82F6]/10 to-[#8B5CF6]/10 rounded-full -translate-y-1/2 translate-x-1/2"></div>
                 <div className="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-[#1E3A8A]/10 to-[#3B82F6]/10 rounded-full translate-y-1/2 -translate-x-1/2"></div>
@@ -380,9 +380,9 @@ export default function ContactUs() {
                     </svg>
                   </div>
                   <div>
-                    <div className="text-xs text-[#6B7280]">Call</div>
+                    <div className="text-xs text-[#6B7280]">Call Now</div>
                     <div className="text-sm font-medium text-[#1F2937]">
-                      Call Now
+                      0930210659
                     </div>
                   </div>
                 </a>
@@ -408,15 +408,23 @@ export default function ContactUs() {
                     </svg>
                   </a>
                   <a
-                    href="#"
+                    href="/https://www.tiktok.com/@naphtechcomputertraining"
                     className="w-11 h-11 bg-white/10 hover:bg-gradient-to-br hover:from-[#833AB4] hover:via-[#FD1D1D] hover:to-[#F77737] rounded-xl flex items-center justify-center transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
                   >
                     <svg
-                      className="w-5 h-5 text-white"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 50 50"
+                      width={24}
+                      height={24}
                     >
-                      <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path>
+                      <path
+                        fill="#010101"
+                        d="M41,4H9C6.243,4,4,6.243,4,9v32c0,2.757,2.243,5,5,5h32c2.757,0,5-2.243,5-5V9C46,6.243,43.757,4,41,4z M37.006,22.323 c-0.227,0.021-0.457,0.035-0.69,0.035c-2.623,0-4.928-1.349-6.269-3.388c0,5.349,0,11.435,0,11.537c0,4.709-3.818,8.527-8.527,8.527 s-8.527-3.818-8.527-8.527s3.818-8.527,8.527-8.527c0.178,0,0.352,0.016,0.527,0.027v4.202c-0.175-0.021-0.347-0.053-0.527-0.053 c-2.404,0-4.352,1.948-4.352,4.352s1.948,4.352,4.352,4.352s4.527-1.894,4.527-4.298c0-0.095,0.042-19.594,0.042-19.594h4.016 c0.378,3.591,3.277,6.425,6.901,6.685V22.323z"
+                      />
+                      <path
+                        fill="#F77737"
+                        d="M37.006 22.323c-0.227 0.021-0.457 0.035-0.69 0.035-2.623 0-4.928-1.349-6.269-3.388 0 5.349 0 11.435 0 11.537 0 4.709-3.818 8.527-8.527 8.527s-8.527-3.818-8.527-8.527 3.818-8.527 8.527-8.527c0.178 0 0.352 0.016 0.527 0.027v4.202c-0.175-0.021-0.347-0.053-0.527-0.053-2.404 0-4.352 1.948-4.352 4.352s1.948 4.352 4.352 4.352 4.527-1.894 4.527-4.298c0-0.095 0.042-19.594 0.042-19.594h4.016c0.378 3.591 3.277 6.425 6.901 6.685v22.323z"
+                      />
                     </svg>
                   </a>
                   <a

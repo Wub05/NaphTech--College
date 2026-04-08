@@ -3,7 +3,7 @@ export default function COCTraining() {
     <>
       <section
         className="code-section bg-[#F0F4FF] py-16 lg:py-24 overflow-hidden "
-        id="siwz1jb"
+        id="training"
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center  translate-y-12 transition-all duration-700 ease-out">

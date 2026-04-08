@@ -5,7 +5,7 @@ export default function Services() {
     <>
       <section
         className="code-section bg-gradient-to-b from-white to-[#F8FAFC] py-16 lg:py-24"
-        id="snk86lc"
+        id="services"
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* <!-- Section Header --> */}

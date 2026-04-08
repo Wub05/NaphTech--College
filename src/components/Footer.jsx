@@ -239,13 +239,6 @@ export default function Footer() {
                       d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                     ></path>
                   </svg>
-                  <div className="text-[#9CA3AF]">
-                    <span className="text-white font-medium">
-                      Bale Goba Campus
-                    </span>
-                    <br />
-                    Bale Goba, Oromia, Ethiopia
-                  </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <svg
